@@ -1,0 +1,36 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    width: max-content;
+    background-color: lightgray;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.subRow {
+    display: flex;
+}
+
+.subCell {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: solid 1px lightgray;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
